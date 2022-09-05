@@ -1,193 +1,365 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-<link rel="stylesheet" href="./assets/css/style.css">
-<title>Udemy</title>
-</head>
-<body>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>Udemy</title>
+        </head>
+        <body>
 
-<header>
-<!-- NavBar -->
+        <header>
+        <!-- NavBar -->
 
-<nav class="navbar navbar-expand-lg bg-light">
-<div class="container-fluid">
-<a class="navbar-brand" href="#">
-    <img id ="logo" src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" alt="" width="90" >
-</a>
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span>
-</button>
+        <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+        <img id ="logo" src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" alt="" width="90" >
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
 
-<div class="collapse navbar-collapse" id="navbarSupportedContent">
-<ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 align-items-center">
-    <li class="nav-item dropdown">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 align-items-center">
+        <li class="nav-item dropdown">
         <a class="nav-link text-dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
         Categories
         </a>
         <ul class="dropdown-menu">
         <li><a class="dropdown-item" href="#">Business</a></li>
         <li><a class="dropdown-item" href="#">Development</a></li>
-      
-     
+
+
         </ul>
-    </li>
-    
-<li class="nav-item flex-auto">
-    <form class="d-flex" role="search">
+        </li>
+
+        <li class="nav-item flex-auto">
+        <form class="d-flex" role="search">
         <!-- <i class="bi bi-search"></i> -->
         <input
-         class="form-control rounded-pill border-dark" 
-         type="search" 
-         placeholder= "Search for any thing" aria-label="Search">
+        class="form-control rounded-pill border-dark" 
+        type="search" 
+        placeholder= "Search for any thing" aria-label="Search">
         </form>
-</li>
+        </li>
 
-<li class="nav-item">
-    <a href="#" class="nav-link">Udemy Business</a>
-</li>
-<li class="nav-item">
-    <a href="#" class="nav-link">Teach on Udemy </a>
-</li>
+        <li class="nav-item">
+        <a href="#" class="nav-link">Udemy Business</a>
+        </li>
+        <li class="nav-item">
+        <a href="#" class="nav-link">Teach on Udemy </a>
+        </li>
 
-<li class="nav-item">
-    <a href="#" class="nav-link"><i class="bi bi-cart3"></i>
-    </a>
-</li>
+        <li class="nav-item">
+        <a href="#" class="nav-link"><i class="bi bi-cart3"></i>
+        </a>
+        </li>
 
-<li class="nav-item">
-    <a class="nav-link"> <button type="button" class="btn btn-outline-dark">Log in</button>
-    </a>
-</li>
+        <li class="nav-item">
+        <a class="nav-link"> <button type="button" class="btn btn-outline-dark">Log in</button>
+        </a>
+        </li>
 
-<li class="nav-item">
-    <a class="nav-link"><button type="button" class="btn btn-dark">Sign up</button>
-    </a>
-</li>
+        <li class="nav-item">
+        <a class="nav-link"><button type="button" class="btn btn-dark">Sign up</button>
+        </a>
+        </li>
 
-<li class="nav-item">
-    <a class="nav-link"><button type="button" class="btn btn-outline-dark"><i class="bi bi-globe"></i></button>
-    </a>
-</li>
-</ul>
+        <li class="nav-item">
+        <a class="nav-link"><button type="button" class="btn btn-outline-dark"><i class="bi bi-globe"></i></button>
+        </a>
+        </li>
+        </ul>
 
-</div>
-</div>
-</nav>
-</header>
+        </div>
+        </div>
+        </nav>
+        </header>
 
-<!-- Carousel /Hero section-->
+        <!-- Carousel /Hero section-->
 
-<div class="container">
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="container">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-          <div>  <img height="400" src="./assets/images/img1.jpg" alt="image 1"></div>
-          <div class="carousel-box">
-            <h4>Learning that gets you</h4>
-            <p>Skills for your present (and your future).
-                <a href="#">Get started with us.</a>
-            </p>
-          </div>
-          </div>
-          
-          <div class="carousel-item">
-            <div><img height="400" src="./assets/images/img2.jpg" alt="image 2"></div>
-            <div class="carousel-box">
-                <h4>Unlock the power of your people</h4>
-                <p>Udemy Business is trusted by 10.5K+ companies around the world. <a href="#"> Find out what we can do for yours.</a></p>
-              </div>
-          </div>
+        <div class="carousel-item active">
+        <div>  <img height="400" src="./assets/images/img1.jpg" alt="image 1"></div>
+        <div class="carousel-box">
+        <h4>Learning that gets you</h4>
+        <p>Skills for your present (and your future).
+        <a href="#">Get started with us.</a>
+        </p>
+        </div>
+        </div>
+
+        <div class="carousel-item">
+        <div><img height="400" src="./assets/images/img2.jpg" alt="image 2"></div>
+        <div class="carousel-box">
+        <h4>Unlock the power of your people</h4>
+        <p>Udemy Business is trusted by 10.5K+ companies around the world. <a href="#"> Find out what we can do for yours.</a></p>
+        </div>
+        </div>
 
         </div>
         <button class="carousel-control-prev header-carousel-button" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next header-carousel-button" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
         </button>
-      </div>
-</div>
+        </div>
+        </div>
+        
 
-    <section>
+
+        <!-- Courses -->
+        <section>
         <div class="container">
-            <h3>A broad selection of courses
-            </h3>
-            <p>Choose from 204,000 online video courses with new additions published every month
-            </p>
-            <div class="special-courses">
-                <ul class="nav nav-tabs" id="special-courses-tabs" role="tablist">
-                    <li class="nav-item" role="presentation">
-                      <button class="nav-link text-dark active" id="python-tab" data-bs-toggle="tab" data-bs-target="#python-tab-pane" type="button" role="tab" aria-controls="python-tab-pane" aria-selected="true">Python</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <button class="nav-link text-dark" id="excel-tab" data-bs-toggle="tab" data-bs-target="#excel-tab-pane" type="button" role="tab" aria-controls="excel-tab-pane" aria-selected="false">Excel</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <button class="nav-link text-dark text-dark" id="webDev-tab" data-bs-toggle="tab" data-bs-target="#webDev-tab-pane" type="button" role="tab" aria-controls="webDev-tab-pane" aria-selected="false">Web development</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link text-dark" id="js-tab" data-bs-toggle="tab" data-bs-target="#js-tab-pane" type="button" role="tab" aria-controls="js-tab-pane" aria-selected="false">JavaScript</button>
-                      </li> 
-                  </ul>
+        <h3>A broad selection of courses
+        </h3>
+        <p>Choose from 204,000 online video courses with new additions published every month
+        </p>
 
-                  <div class="tab-content" id="special-courses-tabs-content">
-                    <div class="tab-pane fade show active" id="python-tab-pane" role="tabpanel" aria-labelledby="python-tab" tabindex="0">
-                        <div class="tab-pane-content">
-                    <h2>Expand your career opportunities with Python
-                    </h2>
-                    <p>Take one of Udemy’s range of Python courses and learn how to code using this incredibly useful language. Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. You’ll learn how to build everything from games to sites to apps. Choose from a range of courses that will appeal to both beginners and advanced developers alike.
-                    </p>
-                    <button type="button" class="btn btn-outline-dark">Explore Python</button>
-                        </div>
-                    </div>
-                    
-                    <div class="tab-pane fade" id="excel-tab-pane" role="tabpanel" aria-labelledby="excel-tab" tabindex="0">
-                        <div class="tab-pane-content">
-                            <h2>Analyze and visualize data with Excel
-                            </h2>
-                            <p>Take a Microsoft Excel course from Udemy, and learn how to use this industry-standard software. Real-world experts will show you the basics like how to organize data into sheets, rows and columns, and advanced techniques like creating complex dynamic formulas. Both small businesses and large companies use Excel to turn their raw data into actionable insights.
-                            </p>
-                            <button type="button" class="btn btn-outline-dark">Explore Excel</button>
-                        </div>
-                    </div>
 
-                    <div class="tab-pane fade" id="webDev-tab-pane" role="tabpanel" aria-labelledby="js-tab" tabindex="0">
-                        <div class="tab-pane-content">
-                            <h2>Build websites and applications with Web Development
-                            </h2>
-                            <p>The world of web development is as wide as the internet itself. Much of our social and vocational lives play out on the internet, which prompts new industries aimed at creating, managing, and debugging the websites and applications that we increasingly rely on.
-                            </p>
-                            <button type="button" class="btn btn-outline-dark">Explore Web Development</button>
-                        </div>
-                    </div>
+        <!-- tabs -->
+        <!-- Python tab-->
+        <div class="special-courses">
+        <ul class="nav nav-tabs" id="special-courses-tabs" role="tablist">
+        <li class="nav-item" role="presentation">
+        <button class="nav-link text-dark active" id="python-tab" data-bs-toggle="tab" data-bs-target="#python-tab-pane" type="button" role="tab" aria-controls="python-tab-pane" aria-selected="true">Python</button>
+        </li>
 
-                    <div class="tab-pane fade" id="js-tab-pane" role="tabpanel" aria-labelledby="js-tab" tabindex="0">
+        <!-- Excel tab-->
+        <li class="nav-item" role="presentation">
+        <button class="nav-link text-dark" id="excel-tab" data-bs-toggle="tab" data-bs-target="#excel-tab-pane" type="button" role="tab" aria-controls="excel-tab-pane" aria-selected="false">Excel</button>
+        </li>
 
-                        <div class="tab-pane-content">
+        <!-- Web Development tab-->
+        <li class="nav-item" role="presentation">
+        <button class="nav-link text-dark text-dark" id="webDev-tab" data-bs-toggle="tab" data-bs-target="#webDev-tab-pane" type="button" role="tab" aria-controls="webDev-tab-pane" aria-selected="false">Web development</button>
+        </li>
 
-                            <h2>Grow your software development skills with JavaScript
-                            </h2>
-                    <p>JavaScript is a text-based computer programming language used to make dynamic web pages. A must-learn for aspiring web developers or programmers, JavaScript can be used for features like image carousels, displaying countdowns and timers, and playing media on a webpage. With JavaScript online classes, you can learn to build interactive web applications, choose the best framework, and work with other programming languages like HTML and CSS.
-                    </p>
-                    <button type="button" class="btn btn-outline-dark">Explore JavaScript</button>
-                        </div>
+        <!-- JavaScript tab-->
+        <li class="nav-item" role="presentation">
+        <button class="nav-link text-dark" id="js-tab" data-bs-toggle="tab" data-bs-target="#js-tab-pane" type="button" role="tab" aria-controls="js-tab-pane" aria-selected="false">JavaScript</button>
+        </li> 
+        </ul>
 
-                    </div>
-                  </div> 
-            </div>
+
+
+        <!-- courses description -->
+        <!-- Python course description -->
+        <div class="tab-content" id="special-courses-tabs-content">
+                
+        <div class="tab-pane fade show active" id="python-tab-pane" role="tabpanel" aria-labelledby="python-tab" tabindex="0">
+        <div class="tab-pane-content">
+        <h2>Expand your career opportunities with Python
+        </h2>
+        <p>Take one of Udemy’s range of Python courses and learn how to code using this incredibly useful language. Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. You’ll learn how to build everything from games to sites to apps. Choose from a range of courses that will appeal to both beginners and advanced developers alike.
+        </p>
+        <button type="button" class="btn btn-outline-dark">Explore Python</button>
         </div>
 
-        
-    </section>
+        <!-- courses cards -->
+        <!-- python cards -->
+        <div class="carousel-cards">
 
-<script src="./assets/JS/bootstrap.bundle.min.js"></script>
-<script src = "./assets/JS/script.js"></script>
-</body>
-</html>
+        <div id="special-courses-python" class="special-courses-python carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+        <div class="carousel-item active">
+        <div class="col-md-3">
+        <div class="course-card">
+        <div class="course-img">
+        <img src="./assets/images/python1.jpg" alt="The Complete Python Programming Course">
+        </div>
+        <div class="course-body">
+        title
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="carousel-item">
+        <div class="col-md-3">
+        <div class="course-card">
+        <div class="course-img">
+        <img src="./assets/images/python2.jpg" alt="Learning Python for Data Analysis and Visualization
+        Learn python">
+        </div>
+        <div class="course-body">
+                title
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="carousel-item">
+        <div class="col-md-3">
+        <div class="course-card">
+        <div class="course-img">
+        <img src="./assets/images/python3.jpg" alt="Learning Python for Data Analysis and Visualization Learn python">
+        </div>
+        <div class="course-body">
+        title
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="carousel-item">
+        <div class="col-md-3">
+        <div class="course-card">
+        <div class="course-img">
+        <img src="./assets/images/python4.jpg" alt="Learning Python for Data Analysis and Visualization Learn python">
+        </div>
+        <div class="course-body">
+        title
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="carousel-item">
+        <div class="col-md-3">
+        <div class="course-card">
+        <div class="course-img">
+        <img src="./assets/images/python5.jpg" alt="Learning Python for Data Analysis and Visualization Learn python">
+        </div>
+        <div class="course-body">
+        title
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="carousel-item">
+        <div class="col-md-3">
+        <div class="course-card">
+        <div class="course-img">
+        <img src="./assets/images/python6.jpg" alt="Learning Python for Data Analysis and Visualization Learn python">
+        </div>
+        <div class="course-body">
+        title
+        </div>
+        </div>
+        </div>
+        </div>
+      
+
+        
+
+    
+
+        
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#special-courses-python" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#special-courses-python" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <!-- Excel course description -->
+        <div class="tab-pane fade" id="excel-tab-pane" role="tabpanel" aria-labelledby="excel-tab" tabindex="0">
+        <div class="tab-pane-content">
+        <h2>Analyze and visualize data with Excel
+        </h2>
+        <p>Take a Microsoft Excel course from Udemy, and learn how to use this industry-standard software. Real-world experts will show you the basics like how to organize data into sheets, rows and columns, and advanced techniques like creating complex dynamic formulas. Both small businesses and large companies use Excel to turn their raw data into actionable insights.
+        </p>
+        <button type="button" class="btn btn-outline-dark">Explore Excel</button>
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Web development course description -->
+        <div class="tab-pane fade" id="webDev-tab-pane" role="tabpanel" aria-labelledby="js-tab" tabindex="0">
+        <div class="tab-pane-content">
+        <h2>Build websites and applications with Web Development
+        </h2>
+        <p>The world of web development is as wide as the internet itself. Much of our social and vocational lives play out on the internet, which prompts new industries aimed at creating, managing, and debugging the websites and applications that we increasingly rely on.
+        </p>
+        <button type="button" class="btn btn-outline-dark">Explore Web Development</button>
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- JavaScript course description -->
+        <div class="tab-pane fade" id="js-tab-pane" role="tabpanel" aria-labelledby="js-tab" tabindex="0">
+
+        <div class="tab-pane-content">
+
+        <h2>Grow your software development skills with JavaScript
+        </h2>
+        <p>JavaScript is a text-based computer programming language used to make dynamic web pages. A must-learn for aspiring web developers or programmers, JavaScript can be used for features like image carousels, displaying countdowns and timers, and playing media on a webpage. With JavaScript online classes, you can learn to build interactive web applications, choose the best framework, and work with other programming languages like HTML and CSS.
+        </p>
+        <button type="button" class="btn btn-outline-dark">Explore JavaScript</button>
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div> 
+        </div>
+        </div>
+
+
+        </section>
+
+        <script src="./assets/JS/bootstrap.bundle.min.js"></script>
+        <script src = "./assets/JS/script.js"></script>
+        </body>
+        </html>
