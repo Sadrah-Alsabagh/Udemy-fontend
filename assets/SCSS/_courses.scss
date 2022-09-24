@@ -8,10 +8,32 @@
 .carousel-cards{
     margin-top: 35px;
 
-    .carousel-item.active{
+    .carousel-inner .carousel-item {
+        &-end.active,
+        &-next{
+            transform: translateX(25%);
+        }
+        &-start.active,
+        &-prev{
+            transform: translateX(-25%);
+        }
+
+
+        &.active,
+        &-next,
+        &-prev,
+        &-end
+        {
         display:flex;
     }
+    &-end,
+    &-start{
+        transform: translateX(0);
+    }
 }
+}
+
+
 
 .course-img{
     border: 1px solid rgba($color: #000000, $alpha: .15);
